@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.1.1
+ - [x] EventBus inside Netkit
+    - `Netkit.EventBus`
+
 ## v0.1.0
  - [x] EventBus Implementation
 
