@@ -478,6 +478,60 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@stablelib/binary@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@stablelib/binary/-/binary-1.0.0.tgz#fa216f8b2d2f7153878e2bc45e91dddee72c4749"
+  integrity sha512-W01QhOw1tWL51Du1c5JZphJs7toRbfra1C2DBlhT0mRHZWGWB1hpFbqiZUFY7QNIMUpmmHLrlZs3YsSCB/giUg==
+  dependencies:
+    "@stablelib/int" "^1.0.0"
+
+"@stablelib/bytereader@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@stablelib/bytereader/-/bytereader-1.0.0.tgz#7dcbdc73271985ac535c32f05f6ec8ecbe98cf4d"
+  integrity sha512-7VnC6qU0YPcdzDeALW3PNizaJGTKnSTIVczwVtJIwwJkgwuJfqMRBJd8ZhpTaHNdZd912NBC+/MSCDSj0pcSrQ==
+  dependencies:
+    "@stablelib/binary" "^1.0.0"
+
+"@stablelib/bytewriter@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@stablelib/bytewriter/-/bytewriter-1.0.0.tgz#7c343d3dbbac996b44be0b988ec624acbb443ac8"
+  integrity sha512-nZ9MgroIgjYMODEt4u+s7Qi8VX5KmtDAQLVWYcHxSLK5hfk9tBrL8WIKSixRJYJ3SneX0P8hYc2bo+O21rmS9w==
+  dependencies:
+    "@stablelib/binary" "^1.0.0"
+    "@stablelib/int" "^1.0.0"
+    "@stablelib/wipe" "^1.0.0"
+
+"@stablelib/cbor@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@stablelib/cbor/-/cbor-1.0.0.tgz#9c404403d66abb553d54ef1ddb2292d9b0125b32"
+  integrity sha512-TxzIqo0x5Ij+KKuFQ00wD+xgZ1uWpCX5mrwtn7ZenFNs3h2K7BSnNol04WOdFbuNrarshnQ/kV5uBact3PJmGQ==
+  dependencies:
+    "@stablelib/bytereader" "^1.0.0"
+    "@stablelib/bytewriter" "^1.0.0"
+    "@stablelib/float" "^1.0.0"
+    "@stablelib/int" "^1.0.0"
+    "@stablelib/utf8" "^1.0.0"
+
+"@stablelib/float@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@stablelib/float/-/float-1.0.0.tgz#42c5dbcda30cd72adc8249a48be7168b1bc8200b"
+  integrity sha512-9/TCU+ur0pcMEpK+n/HwoEMhWT/bD4M1Ov5kazm5QV7wL9NSmVnbQptLpUJTcnl0GTglkZZO7EHTOzimgRv4ow==
+
+"@stablelib/int@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@stablelib/int/-/int-1.0.0.tgz#2432569169cc5640fe5e65b7f79f722ed9cacc59"
+  integrity sha512-MRigEQCO7xM93nZqW4CbIBjhANGw3jJxGVSUZH3PQ6HWL1IGrFWVDBzIclWxl4l5aRRpqoM+76ellQNdUJPnsA==
+
+"@stablelib/utf8@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@stablelib/utf8/-/utf8-1.0.0.tgz#7c0c039b6d154da50326003ea92777ddc8f5db2c"
+  integrity sha512-Y8QWrK4T0yW0HMFfSI3ZaMHKV37q27hX5ilsmKV358x01mzYfj5fwIf2LjzTlF+UIemHEXSlSN9XJnv1ML4znQ==
+
+"@stablelib/wipe@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@stablelib/wipe/-/wipe-1.0.0.tgz#8ed028a10bb7527357b2655c360383b5f07c16ac"
+  integrity sha512-0Fd4MQCbEh8OFSO+gG7wBXok7yRC3w+xe/wWM8KNye7EGoHr4BTFZNWV/1xAn2r8/gyFKxPXT8uxXRzDzGq6rg==
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.9"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.9.tgz#77e59d438522a6fb898fa43dc3455c6e72f3963d"
@@ -583,6 +637,11 @@
   dependencies:
     "@types/yargs-parser" "*"
 
+"@tyriar/fibonacci-heap@^2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@tyriar/fibonacci-heap/-/fibonacci-heap-2.0.9.tgz#df3dcbdb1b9182168601f6318366157ee16666e9"
+  integrity sha512-bYuSNomfn4hu2tPiDN+JZtnzCpSpbJ/PNeulmocDy3xN2X5OkJL65zo6rPZp65cPPhLF9vfT/dgE+RtFRCSxOA==
+
 abab@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
@@ -605,6 +664,11 @@ acorn@^7.1.1:
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.3.1.tgz#85010754db53c3fbaf3b9ea3e083aa5c5d147ffd"
   integrity sha512-tLc0wSnatxAQHVHUapaHdz72pi9KUyHjq5KyHjGg9Y8Ifdc79pTh2XvI6I1/chZbnM7QtNKzh66ooDogPZSleA==
+
+adaptive-accrual-failure-detector@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/adaptive-accrual-failure-detector/-/adaptive-accrual-failure-detector-0.2.0.tgz#20623c0de257c2106b66c8cee1f33ff4ae19e671"
+  integrity sha512-9WVXWgoli1Cgac2NL+6/beJNLqf418gfXlfpKYM+j7TMy9ikeDK+chocSfQE0addYz2n92Jgk/gk0aXnA+Nfdw==
 
 ajv@^6.5.5:
   version "6.12.2"
@@ -708,10 +772,28 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
+ataraxia@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/ataraxia/-/ataraxia-0.8.2.tgz#aa81e037ac9db23c9a4ba29abd40cbe47e439d96"
+  integrity sha512-RPcJXuvwI+ikZiWcTRAXYzPVVfda7/m4seuj+CzjWxGCNkHiCUWPcXVeltggakgxCr5PL9LVliN6MweQG/u2ng==
+  dependencies:
+    "@stablelib/cbor" "^1.0.0"
+    "@tyriar/fibonacci-heap" "^2.0.9"
+    adaptive-accrual-failure-detector "^0.2.0"
+    atvik "1.0.0"
+    debug "^4.1.1"
+    fast-sha256 "^1.3.0"
+    fastestsmallesttextencoderdecoder "^1.0.16"
+
 atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
+
+atvik@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/atvik/-/atvik-1.0.0.tgz#4bea21d24e402afa18a69a515d39e9ed14ee6401"
+  integrity sha512-/dQx7H5SJ6R2RWe9o8TlS0PJcIFNNvEtmR1i/nS6JrLvYNKOhyltl/G2/XRh6o73qqSfOp06WL1+9puZiGvpYw==
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -1361,6 +1443,16 @@ fast-levenshtein@~2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
+
+fast-sha256@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/fast-sha256/-/fast-sha256-1.3.0.tgz#7916ba2054eeb255982608cccd0f6660c79b7ae6"
+  integrity sha512-n11RGP/lrWEFI/bWdygLxhI+pVeo1ZYIVwvvPkW7azl/rOy+F3HYRZ2K5zeE9mmkhQppyv9sQFx0JM9UabnpPQ==
+
+fastestsmallesttextencoderdecoder@^1.0.16:
+  version "1.0.22"
+  resolved "https://registry.yarnpkg.com/fastestsmallesttextencoderdecoder/-/fastestsmallesttextencoderdecoder-1.0.22.tgz#59b47e7b965f45258629cc6c127bf783281c5e93"
+  integrity sha512-Pb8d48e+oIuY4MaM64Cd7OW1gt4nxCHs7/ddPPZ/Ic3sg8yVGM7O9wDvZ7us6ScaUupzM+pfBolwtYhN1IxBIw==
 
 fb-watchman@^2.0.0:
   version "2.0.1"
