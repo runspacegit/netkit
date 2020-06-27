@@ -1,0 +1,26 @@
+{
+  "name": "@runspace/netkit",
+  "version": "0.0.0",
+  "description": "RunSpace Peer-to-Peer Network Kit",
+  "main": "dist/index.js",
+  "repository": "https://github.com/runspacegit/netkit.git",
+  "author": "Mikhail Marynenko <0x77dev@protonmail.com>",
+  "files": [
+    "README.md",
+    "/src/",
+    "/dist/"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
+  }
+}
