@@ -1,14 +1,18 @@
 import { Network } from "ataraxia";
 import { NetKitConfiguration } from "./index.interfaces";
+import { EventBus } from "./EventBus";
 
 export class NetKit {
     public net: Network;
+    public eventBus: EventBus;
+
     constructor({ authentication, endpoint, name }: NetKitConfiguration) {
         this.net = new Network({
             name: name ? name : "runspace",
             authentication,
             endpoint
         });
+        this.eventBus = new EventBus(this);
     }
 
     public async start(): Promise<void> {
