@@ -21,7 +21,5 @@ jobs:
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        - name: coverage
-          path: ./coverage
-        - name: dist
-          path: ./dist
+        name: coverage
+        path: ./coverage
