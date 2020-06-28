@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v1.0.0
+ - [x] Service Manager implementation
+
 ## v0.2.0
  - [x] JSONWebToken Auth implementation
 
