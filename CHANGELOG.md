@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v0.2.0
+ - [x] JSONWebToken Auth implementation
+
 ## v0.1.1
  - [x] EventBus inside Netkit
     - `Netkit.EventBus`
