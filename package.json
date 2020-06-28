@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "ataraxia": "^0.8.2",
+    "ataraxia-services": "^0.8.2",
     "jsonwebtoken": "^8.5.1",
     "jwt-simple": "^0.5.6"
   }

@@ -784,6 +784,15 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
+ataraxia-services@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/ataraxia-services/-/ataraxia-services-0.8.2.tgz#9a4381269a5bf92a10bb6f243a02f1a22addb888"
+  integrity sha512-wtC8K3K0AKPPkX9NBCel1jE7U3MTlja9ddV2iBHLivf6HsQkzGuyrxrCo8nkl4Adl0jUE7kHRGPojp3a5xN3AA==
+  dependencies:
+    ataraxia "^0.8.2"
+    atvik "^1.0.0"
+    debug "^4.1.1"
+
 ataraxia@^0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/ataraxia/-/ataraxia-0.8.2.tgz#aa81e037ac9db23c9a4ba29abd40cbe47e439d96"
@@ -802,7 +811,7 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-atvik@1.0.0:
+atvik@1.0.0, atvik@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/atvik/-/atvik-1.0.0.tgz#4bea21d24e402afa18a69a515d39e9ed14ee6401"
   integrity sha512-/dQx7H5SJ6R2RWe9o8TlS0PJcIFNNvEtmR1i/nS6JrLvYNKOhyltl/G2/XRh6o73qqSfOp06WL1+9puZiGvpYw==
