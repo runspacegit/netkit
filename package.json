@@ -19,11 +19,15 @@
   "private": false,
   "devDependencies": {
     "@types/jest": "^26.0.3",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/jwt-simple": "^0.5.33",
     "jest": "^26.1.0",
     "ts-jest": "^26.1.1",
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "ataraxia": "^0.8.2"
+    "ataraxia": "^0.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-simple": "^0.5.6"
   }
 }
