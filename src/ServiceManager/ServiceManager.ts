@@ -1,6 +1,5 @@
 import NetKit from "..";
-import { Services, ServiceHandle } from 'ataraxia-services';
-import Service from "./Service";
+import { Services, ServiceHandle, LocalServiceDef } from 'ataraxia-services';
 
 export class ServiceManager {
     private netkit: NetKit;
@@ -11,7 +10,7 @@ export class ServiceManager {
         this.services = new Services(this.netkit.net);
     }
 
-    public register(service: Service): ServiceHandle {
+    public register(service: LocalServiceDef): ServiceHandle {
         return this.services.register(service);
     }
 
