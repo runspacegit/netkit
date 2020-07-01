@@ -14,4 +14,4 @@
  - [x] EventBus Implementation
 
 ## v0.0.1
- - [x] Ataraxia network integration
+ - [x] Ataraxia network integration 
