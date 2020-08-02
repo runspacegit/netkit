@@ -2,17 +2,20 @@ import { NetKit } from "..";
 import { AnonymousAuth } from "ataraxia";
 import { ServiceHandle } from "ataraxia-services";
 import { ServiceManager } from "./ServiceManager";
+import AbstractService from "./Service";
 
-export class Service {
-    private handle: ServiceHandle;
+export class SampleService implements AbstractService {
     public readonly id = "sample";
-
-    constructor(handle: ServiceHandle) {
-        this.handle = handle;
-    }
 
     hello() {
         return "hello"
+    }
+
+    toAtaraxiaService() {
+        return {
+            id: this.id,
+            hello: () => this.hello
+        }
     }
 }
 
@@ -47,9 +50,8 @@ describe("ServiceManager", () => {
     })
 
     test("Register Service", () => {
-        expect(serviceManager.register(Service)).toBeTruthy();
+        expect(serviceManager.registerNetKitService(new SampleService())).toBeTruthy();
     })
-
 
     test("Test Service", async () => {
         const service = secondServiceManager.services.get('sample');
