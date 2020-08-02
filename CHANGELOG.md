@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.1.0
+ - [x] AbstractService implementation
+ - [x] registerNetKitService implementation
+
 ## v1.0.0
  - [x] Service Manager implementation
 
