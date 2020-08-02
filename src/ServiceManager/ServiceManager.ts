@@ -15,7 +15,7 @@ export class ServiceManager {
         return this.services.register(service);
     }
 
-    public registerNetkitService(service: AbstractService): ServiceHandle {
+    public registerNetKitService(service: AbstractService): ServiceHandle {
         return this.register(service.toAtaraxiaService());
     }
 
