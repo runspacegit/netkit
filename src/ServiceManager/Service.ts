@@ -1,12 +1,13 @@
-import { ServiceHandle } from "ataraxia-services";
+import { LocalServiceDef } from "ataraxia-services";
 
-export class Service {
-    private handle: ServiceHandle;
-    public readonly id = "serviceid";
+export class AbstractService {
+    public readonly id!: string;
 
-    constructor(handle: ServiceHandle) {
-        this.handle = handle;
+    public toAtaraxiaService(): LocalServiceDef {
+        return {
+            id: this.id
+        };
     }
 }
 
-export default Service;
+export default AbstractService;
