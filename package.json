@@ -1,6 +1,6 @@
 {
   "name": "@runspace/netkit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "RunSpace Peer-to-Peer Network Kit",
   "main": "dist/index.js",
   "repository": "https://github.com/runspacegit/netkit.git",
